@@ -26,6 +26,7 @@
  // 그레이브 액센트는 테이블명에 쓰이고, 생략가능하지만, 어떤때는 반드시 써야함. 구조와 관련된 어떤 이름을 명명할때. 작은따옴표와 구분할것.
  mysqli_query($conn,$sql);
 
+header('location:index.php');
  //var_dump($result->num_rows);
 
   ?>
